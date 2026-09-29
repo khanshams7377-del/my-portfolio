@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+:root {
+	font-family: 'DM Sans', sans-serif;
+	color: #edf0e9;
+	background: #121513;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	--font-display: 'Space Grotesk', 'DM Sans', sans-serif;
+	--font-mono: 'IBM Plex Mono', monospace;
+	--acid: #c7e77f;
+	--text: #edf0e9;
+	--line: #303630;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	min-width: 320px;
+	scroll-behavior: smooth;
+	scroll-padding-top: 72px;
+}
+
+body {
+	min-width: 320px;
+	margin: 0;
+	background: #121513;
+}
+
+button,
+a {
+	-webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+	background: #c7e77f;
+	color: #182016;
+}
